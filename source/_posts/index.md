@@ -6,7 +6,9 @@ tags:
 categories:
 ---
 
-这是 winsky 的个人 Wiki 站点，主要记录一些自己总结的只言片语的零散知识点。
+这是 winsky 的个人 Wiki 站点，主要记录一些自己总结的操作型知识点。
+
+系统的搭建是参考的大佬的主题[hexo-theme-Wikitten](https://github.com/zthxxx/hexo-theme-Wikitten)，以下也是摘自大佬的原话。
 
 我一直觉得 **知识不能碎片化，要结构化**，于是希望寻找一种优雅的方式来管理我的知识。
 
