@@ -60,7 +60,7 @@ history_control: # make you wiki has history version control in page
     server_link: https://github.com # recommend use GitHub https://github.com
     user: winsky94
     repertory: HexoWiki
-    branch: master
+    branch: dev
 
 # Comment
 comment:

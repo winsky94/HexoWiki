@@ -19,7 +19,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: HexoWiki
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -123,3 +123,6 @@ theme: Wikitten
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+  type: git
+  repo: https://github.com/winsky94/HexoWiki.git
+  branch: master
