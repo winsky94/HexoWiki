@@ -42,7 +42,7 @@ tags: [数据库]
 
 
 ## 重置密码
-- 先停止数据库服务`service mysqld  stop`
+- 先停止数据库服务`service mysql  stop`
 - 以安全模式启动MySQL`mysqld_safe --skip-grant-tables --skip-networking &`
     - 注意我们加了`--skip-networking`，避免远程无密码登录`MySQL`。
 - 直接root免密登录`mysql -uroot`
@@ -50,6 +50,6 @@ tags: [数据库]
     - `use mysql`
     - MySQL 5.7.6 以及最新版本：`update user set authentication_string=PASSWORD('12345a') where User='root';`
     - MySQL 5.7.5 或更早之前的版本:`update user set password=PASSWORD('12345a') where User='root';`
-- 停止安全模式`service mysqld stop`
-- 正常启动`service mysqld start`
+- 停止安全模式`service mysql stop`
+- 正常启动`service mysql start`
 - Done~
